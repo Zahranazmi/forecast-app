@@ -3,46 +3,55 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Lunasima:wght@400;700&family=Padauk:wght@400;700&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&family=Scada:ital,wght@0,400;0,700;1,400;1,700&family=Sura:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input placeholder="Search for a City" class="search" required />
-        <input value="search" class="submit" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <p>
-          Friday, 15 March
-          <br />
-          01:25
-        </p>
-      </div>
-      <div>
-        <h1>Paris (France)</h1>
-        🌤️ 12°C
-      </div>
-      <div>
-        <p>
-          Mainly cloudy
-          <br />
-          Humidity: 92% , Feels like: 20°
-        </p>
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/Zahranazmi" target="_blank">Zahra Nazmi</a>,
-      is
-      <a href="https://github.com/Zahranazmi/forecast-app" target="_blank"
-        >open-sourced on GitHub</a
-      >
-      and
-      <a href="https://forecast-app-shecodes.netlify.app/" target="_blank"
-        >hosted on Netlify</a
-      >
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input placeholder="Search for a City" class="search" required />
+          <input value="search" class="submit" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <p>
+            Friday, 15 March
+            <br />
+            01:25
+          </p>
+        </div>
+        <div>
+          <h1>Paris</h1>
+          🌤️ 12°C
+        </div>
+        <div>
+          <p>
+            Mainly cloudy
+            <br />
+            Humidity: 92% , Feels like: 20°
+          </p>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/Zahranazmi" target="_blank">Zahra Nazmi</a>,
+        is
+        <a href="https://github.com/Zahranazmi/forecast-app" target="_blank"
+          >open-sourced on GitHub</a
+        >
+        and
+        <a href="https://forecast-app-shecodes.netlify.app/" target="_blank"
+          >hosted on Netlify</a
+        >
+      </footer>
+    </div>
   </body>
 </html>

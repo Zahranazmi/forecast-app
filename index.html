@@ -15,18 +15,19 @@
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             placeholder="Search for a City"
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input value="Search" type="submit" class="search-form-button" />
         </form>
         <div class="date"><p>Friday, 15 March &nbsp 01:25</p></div>
       </header>
       <main>
-        <h1>PARIS</h1>
+        <h1 id="city">PARIS</h1>
         <div class="weather-app-data">
           <div class="current-temperature">
             <div class="current-temperature-icon">🌤️</div>
@@ -55,5 +56,6 @@
         >hosted on Netlify</a
       >
     </footer>
+    <script src="src/index.js"></script>
   </body>
 </html>

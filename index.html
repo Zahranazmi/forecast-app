@@ -15,43 +15,45 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input placeholder="Search for a City" class="search" required />
-          <input value="search" class="submit" />
+        <form class="search-form">
+          <input
+            placeholder="Search for a City"
+            required
+            class="search-form-input"
+          />
+          <input value="Search" type="submit" class="search-form-button" />
         </form>
+        <div class="date"><p>Friday, 15 March &nbsp 01:25</p></div>
       </header>
       <main>
-        <div>
-          <p>
-            Friday, 15 March
-            <br />
-            01:25
-          </p>
-        </div>
-        <div>
-          <h1>Paris</h1>
-          🌤️ 12°C
-        </div>
-        <div>
-          <p>
+        <h1>PARIS</h1>
+        <div class="weather-app-data">
+          <div class="current-temperature">
+            <div class="current-temperature-icon">🌤️</div>
+            <div class="current-temperature-value">12</div>
+            <div class="current-temperature-unit">°C</div>
+          </div>
+
+          <div class="description">
             Mainly cloudy
             <br />
-            Humidity: 92% , Feels like: 20°
-          </p>
+            Humidity: 92%
+            <br />Feels like: 20°
+          </div>
         </div>
       </main>
-      <footer>
-        This project was coded by
-        <a href="https://github.com/Zahranazmi" target="_blank">Zahra Nazmi</a>,
-        is
-        <a href="https://github.com/Zahranazmi/forecast-app" target="_blank"
-          >open-sourced on GitHub</a
-        >
-        and
-        <a href="https://forecast-app-shecodes.netlify.app/" target="_blank"
-          >hosted on Netlify</a
-        >
-      </footer>
     </div>
+    <footer>
+      Coded by
+      <a href="https://github.com/Zahranazmi" target="_blank">Zahra Nazmi</a>,
+
+      <a href="https://github.com/Zahranazmi/forecast-app" target="_blank">
+        open-sourced on GitHub</a
+      >
+      and
+      <a href="https://forecast-app-shecodes.netlify.app/" target="_blank"
+        >hosted on Netlify</a
+      >
+    </footer>
   </body>
 </html>

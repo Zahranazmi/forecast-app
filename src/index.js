@@ -7,6 +7,7 @@ function refreshWeather(response) {
   let feelsLikeElement = document.querySelector("#feels-like");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
 
   timeElement.innerHTML = formatDate(date);
   cityElement.innerHTML = response.data.city.toUpperCase().trim();
@@ -15,6 +16,8 @@ function refreshWeather(response) {
     response.data.condition.description.toUpperCase();
   humidityElement.innerHTML = response.data.temperature.humidity;
   feelsLikeElement.innerHTML = Math.round(response.data.temperature.feels_like);
+  iconElement.innerHTML = `<img
+                src="${response.data.condition.icon_url}" class="current-temperature-icon" />`;
 }
 
 function formatDate(date) {

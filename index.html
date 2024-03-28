@@ -25,7 +25,9 @@
           />
           <input value="Search" type="submit" class="search-form-button" />
         </form>
-        <div class="date"><p>Friday, 15 March &nbsp 01:25</p></div>
+        <div class="date">
+          <span id="time"></span>
+        </div>
       </header>
       <main>
         <h1 id="city"></h1>
@@ -37,10 +39,10 @@
           </div>
 
           <div class="description">
-            Mainly cloudy
+            <span id="condition"></span>
             <br />
-            Humidity: 92%
-            <br />Feels like: 20°
+            Humidity: <span id="humidity"></span>%<br />Feels like:
+            <span id="feels-like"></span>°c
           </div>
         </div>
       </main>

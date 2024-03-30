@@ -113,3 +113,25 @@ a {
 a:hover {
   color: #b0927c;
 }
+
+.weather-forecast {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.weather-forecast-temperatures {
+  font-size: 14px;
+}
+
+.weather-forecast-temperature-min {
+  opacity: 0.6;
+}

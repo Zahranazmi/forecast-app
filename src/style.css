@@ -6,7 +6,7 @@ body {
 .weather-app {
   max-width: 600px;
   background-color: rgba(255, 255, 255, 0.1);
-  margin: 45px auto;
+  margin: 70px auto;
   margin-bottom: 10px;
   padding: 30px;
   border-radius: 10px;
@@ -41,7 +41,7 @@ header {
   padding: 10px;
   line-height: 30px;
   font-size: 17px;
-  background-color: rgba(192, 148, 117, 0.6);
+  background-color: rgba(219, 152, 104, 0.6);
   color: rgb(75, 75, 75);
   font-family: "Fahkwang", sans-serif;
 }
@@ -98,26 +98,13 @@ h1 {
   color: rgba(184, 148, 115);
 }
 
-footer {
-  text-align: center;
-  color: rgb(154, 152, 152, 0.6);
-  font-family: "Fahkwang", sans-serif;
-  font-size: 15px;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(139, 139, 139);
-}
-
-a:hover {
-  color: #b0927c;
-}
-
 .weather-forecast {
+  border-top: 1px solid rgb(92, 91, 91);
   display: flex;
   justify-content: space-around;
-  margin-top: 30px;
+  margin-top: 20px;
+  padding-top: 40px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -137,4 +124,20 @@ a:hover {
 
 .weather-forecast-temperature-min {
   opacity: 0.6;
+}
+
+footer {
+  text-align: center;
+  color: rgb(154, 152, 152, 0.6);
+  font-family: "Fahkwang", sans-serif;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+}
+
+a:hover {
+  color: #b0927c;
 }
